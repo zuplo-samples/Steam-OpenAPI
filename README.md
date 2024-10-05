@@ -1,6 +1,7 @@
 # Steam OpenAPI
 
 OpenAPI specification for [Steam's Web API](https://partner.steamgames.com/doc/webapi_overview). 
+You can read our [full guide](https://zuplo.com/blog/2024/10/04/what-is-the-steam-web-api) to learn more about the Steam Web API
 
 ## Public Steam Web API
 
