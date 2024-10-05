@@ -18,9 +18,9 @@ The partner spec is for "partner only" APIs that are reserved for Steam partners
 
 Learn how to get your API Key from [here](https://partner.steamgames.com/doc/webapi_overview/auth).
 
-Try the API in the [Zudoku Playground](https://zudoku.dev/demo?api-url=https%3A%2F%2Fd93ffb4c9e854452b65afda3f55e1f97.api.mockbin.io%2F#getreport-operation-of-isteammicrotxnsandbox-isteammicrotxnsandbox_getreport)
+Try the API in the [Zudoku Playground](https://zudoku.dev/demo?api-url=https%3A%2F%2Fraw.githubusercontent.com%2Fzuplo%2FSteam-OpenAPI%2Frefs%2Fheads%2Fmain%2Fsteam-partner.json)
 
-[![Zudoku](https://zudoku.dev/zudoku.svg)](https://zudoku.dev/demo?api-url=https%3A%2F%2Fd93ffb4c9e854452b65afda3f55e1f97.api.mockbin.io%2F#getreport-operation-of-isteammicrotxnsandbox-isteammicrotxnsandbox_getreport)
+[![Zudoku](https://zudoku.dev/zudoku.svg)](https://zudoku.dev/demo?api-url=https%3A%2F%2Fraw.githubusercontent.com%2Fzuplo%2FSteam-OpenAPI%2Frefs%2Fheads%2Fmain%2Fsteam-partner.json)
 
 ## Undocumented Steam Web API
 
