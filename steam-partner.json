@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Steam Publisher Web API",
-    "summary": "Learn how to get your API Key from [here](https://partner.steamgames.com/doc/webapi_overview/auth)",
+    "description": "Learn how to get your API Key from [here](https://partner.steamgames.com/doc/webapi_overview/auth)",
     "version": "1.0.0"
   },
   "paths": {
