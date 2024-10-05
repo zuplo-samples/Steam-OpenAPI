@@ -22,3 +22,7 @@ Try the API in the [Zudoku Playground](https://zudoku.dev/demo?api-url=https%3A%
 
 [![Zudoku](https://zudoku.dev/zudoku.svg)](https://zudoku.dev/demo?api-url=https%3A%2F%2Fd93ffb4c9e854452b65afda3f55e1f97.api.mockbin.io%2F#getreport-operation-of-isteammicrotxnsandbox-isteammicrotxnsandbox_getreport)
 
+## Undocumented Steam Web API
+
+Unpublished/hidden API endpoints as enumerated [here](https://steamapi.xpaw.me/#). That page is the best way to read about and test those APIs.
+
