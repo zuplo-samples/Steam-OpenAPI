@@ -52,7 +52,7 @@
             "description": "deprecated",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -113,7 +113,7 @@
             "description": "[ENetQOSLevel] client-specified priority for this auth attempt",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -319,7 +319,7 @@
             "description": "version field",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -355,7 +355,7 @@
             "description": "Whether to confirm the login (true) or deny the login (false)",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -1371,7 +1371,7 @@
             "description": "ECDNPropertyType",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -1516,7 +1516,7 @@
             "description": "launcher type",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -1560,7 +1560,7 @@
             "description": "ECDNPropertyType",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -1648,7 +1648,7 @@
             "description": "Only show matches that are part of the DPC",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -1683,7 +1683,7 @@
             "description": "Include persona names as part of the response",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -1868,7 +1868,7 @@
             "description": "Which partner's games to use.",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -1894,7 +1894,7 @@
             "description": "Which partner's games to use.",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -1920,7 +1920,7 @@
             "description": "Which partner's games to use.",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -1929,7 +1929,7 @@
             "description": "Prefer matches from this division.",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -2237,7 +2237,7 @@
             "description": "Return a list of itemized heroes only.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -2428,7 +2428,7 @@
             "description": "The first item id to return. Defaults to 0. Response will indicate next value to query if applicable.",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -2868,7 +2868,7 @@
             "description": "The user wants the previous page of results, so return the previous max_trades trades before the start time and ID",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -2877,7 +2877,7 @@
             "description": "If set, the item display data for the items included in the returned trades will also be returned",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -2894,7 +2894,7 @@
             "in": "query",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -2903,7 +2903,7 @@
             "description": "If set, the total number of trades the account has participated in will be included in the response",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -2998,7 +2998,7 @@
             "description": "If set, the item display data for the items included in the returned trade offers will also be returned. If one or more descriptions can't be retrieved, then your request will fail.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -3033,7 +3033,7 @@
             "description": "Request the list of sent offers.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -3042,7 +3042,7 @@
             "description": "Request the list of received offers.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -3051,7 +3051,7 @@
             "description": "If set, the item display data for the items included in the returned trade offers will also be returned. If one or more descriptions can't be retrieved, then your request will fail.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -3069,7 +3069,7 @@
             "description": "Indicates we should only return offers which are still active, or offers that have changed in state since the time_historical_cutoff",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -3078,7 +3078,7 @@
             "description": "Indicates we should only return offers which are not active.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -3174,7 +3174,7 @@
             "description": "If set, the item display data for the items included in the returned trades will also be returned",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4125,7 +4125,7 @@
             "in": "query",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -4271,7 +4271,7 @@
             "description": "The badge we're asking about",
             "required": true,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -4315,7 +4315,7 @@
             "description": "true if we want additional details (name, icon) about each game",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4324,7 +4324,7 @@
             "description": "Free games are excluded by default.  If this is set, free games the user has played will be returned.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4342,7 +4342,7 @@
             "description": "Some games are in the free sub, which are excluded by default.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4351,7 +4351,7 @@
             "description": "if set, skip unvetted store apps",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4369,7 +4369,7 @@
             "description": "true if we want even more details (capsule, sortas, and capabilities) about each game.  include_appinfo must also be true.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -4606,7 +4606,7 @@
             "description": "If true, return tag information in the returned details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4615,7 +4615,7 @@
             "description": "If true, return preview information in the returned details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4624,7 +4624,7 @@
             "description": "If true, return children in the returned details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4633,7 +4633,7 @@
             "description": "If true, return key value tags in the returned details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4642,7 +4642,7 @@
             "description": "If true, return vote data in the returned details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4651,7 +4651,7 @@
             "description": "If true, return a short description instead of the full description.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4660,7 +4660,7 @@
             "description": "If true, return pricing data, if applicable.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4669,7 +4669,7 @@
             "description": "If true, populate the metadata field.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4704,7 +4704,7 @@
             "description": "Strips BBCode from descriptions.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4722,7 +4722,7 @@
             "description": "If true, then reactions to items will be returned.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4731,7 +4731,7 @@
             "description": "Admin tool is doing a query, return hidden items",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -4773,7 +4773,7 @@
             "in": "query",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4960,7 +4960,7 @@
             "description": "Specifies the localized text to return. Defaults to English.",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -4987,7 +4987,7 @@
             "description": "Admin tool is doing a query, return hidden items",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -4996,7 +4996,7 @@
             "description": "If true, only return the total number of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5005,7 +5005,7 @@
             "description": "If true, only return the published file ids of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5014,7 +5014,7 @@
             "description": "Return vote data",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5023,7 +5023,7 @@
             "description": "Return tags in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5032,7 +5032,7 @@
             "description": "Return key-value tags in the file details",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5041,7 +5041,7 @@
             "description": "Return preview image and video details in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5050,7 +5050,7 @@
             "description": "Return child item ids in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5059,7 +5059,7 @@
             "description": "Populate the short_description field instead of file_description",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5068,7 +5068,7 @@
             "description": "Return pricing information, if applicable",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5077,7 +5077,7 @@
             "description": "Populate the metadata field",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5095,7 +5095,7 @@
             "description": "Strips BBCode from descriptions.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5104,7 +5104,7 @@
             "description": "If true, then reactions to items will be returned.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5131,7 +5131,7 @@
             "description": "Return list of apps the items belong to",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -5328,7 +5328,7 @@
             "description": "Admin tool is doing a query, return hidden items",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5337,7 +5337,7 @@
             "description": "If true, only return the total number of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5346,7 +5346,7 @@
             "description": "If true, only return the published file ids of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5355,7 +5355,7 @@
             "description": "Return vote data",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5364,7 +5364,7 @@
             "description": "Return tags in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5373,7 +5373,7 @@
             "description": "Return key-value tags in the file details",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5382,7 +5382,7 @@
             "description": "Return preview image and video details in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5391,7 +5391,7 @@
             "description": "Return child item ids in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5400,7 +5400,7 @@
             "description": "Populate the short_description field instead of file_description",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5409,7 +5409,7 @@
             "description": "Return pricing information, if applicable",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5418,7 +5418,7 @@
             "description": "Populate the metadata field",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5436,7 +5436,7 @@
             "description": "Strips BBCode from descriptions.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5445,7 +5445,7 @@
             "description": "If true, then reactions to items will be returned.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5472,7 +5472,7 @@
             "description": "Return list of apps the items belong to",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -5607,7 +5607,7 @@
             "description": "If true, then items must have all the tags specified, otherwise they must have at least one of the tags.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5670,7 +5670,7 @@
             "description": "If query_type is k_PublishedFileQueryType_RankedByTrend, then limit result set just to items that have votes within the day range given",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5742,7 +5742,7 @@
             "description": "Admin tool is doing a query, return hidden items",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5751,7 +5751,7 @@
             "description": "If true, only return the total number of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5760,7 +5760,7 @@
             "description": "If true, only return the published file ids of files that satisfy this query.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5769,7 +5769,7 @@
             "description": "Return vote data",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5778,7 +5778,7 @@
             "description": "Return tags in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5787,7 +5787,7 @@
             "description": "Return key-value tags in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5796,7 +5796,7 @@
             "description": "Return preview image and video details in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5805,7 +5805,7 @@
             "description": "Return child item ids in the file details",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5814,7 +5814,7 @@
             "description": "Populate the short_description field instead of file_description",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5823,7 +5823,7 @@
             "description": "Return pricing information, if applicable",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5832,7 +5832,7 @@
             "description": "Populate the metadata",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5850,7 +5850,7 @@
             "description": "By default, if none of the other 'return_*' fields are set, only some voting details are returned. Set this to true to return the default set of details.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5859,7 +5859,7 @@
             "description": "Strips BBCode from descriptions.",
             "required": true,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -5877,7 +5877,7 @@
             "description": "If true, then reactions to items will be returned.",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           }
         ],
@@ -6033,7 +6033,7 @@
             "description": "video stream representation watching",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -6769,7 +6769,7 @@
             "description": "The type of vanity URL. 1 (default): Individual profile, 2: Group, 3: Official game group",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
@@ -7192,7 +7192,7 @@
             "description": "Include games (defaults to enabled)",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -7201,7 +7201,7 @@
             "description": "Include DLC",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -7210,7 +7210,7 @@
             "description": "Include software items",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -7219,7 +7219,7 @@
             "description": "Include videos and series",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -7228,7 +7228,7 @@
             "description": "Include hardware",
             "required": false,
             "schema": {
-              "type": "bool"
+              "type": "boolean"
             }
           },
           {
@@ -7535,7 +7535,7 @@
             "description": "Data in this range will be filled in with StoreBrowse data",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           },
           {
@@ -7543,7 +7543,7 @@
             "in": "query",
             "required": false,
             "schema": {
-              "type": "int32"
+              "type": "integer"
             }
           }
         ],
