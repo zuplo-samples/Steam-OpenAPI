@@ -2,7 +2,7 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Steam Web API",
-    "summary": "Get your API key from [here](https://steamcommunity.com/dev/apikey)",
+    "description": "Get your API key from [here](https://steamcommunity.com/dev/apikey)",
     "version": "1.0.0"
   },
   "paths": {
